@@ -1,15 +1,24 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --olive-green: #a0a779;
 }
 
-@theme inline {
+/* Variáveis CSS customizadas para cores e fontes */
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-olive-green: var(--olive-green);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-playfair);
+}
+
+/* Classe utilitária para a cor olive-green */
+.text-olive-green {
+  color: var(--olive-green);
 }
 
 @media (prefers-color-scheme: dark) {
