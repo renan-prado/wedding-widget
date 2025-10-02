@@ -58,7 +58,7 @@ export default function CountdownPage({ params }: CountdownPageProps) {
       {/* Conteúdo principal com proporção quadrada */}
       <div className="w-full max-w-md aspect-square bg-white flex flex-col items-center justify-center">
         {/* Banner dentro do quadrado */}
-        <div className="w-3/4 -mb-24">
+        <div className="w-1/2 -mb-22">
           <Image
             src="/banner-countdown-h.png"
             alt="Banner Countdown"
@@ -70,7 +70,7 @@ export default function CountdownPage({ params }: CountdownPageProps) {
         </div>
 
         {/* Apenas o número de dias e dia/dias */}
-        <div className="text-olive-green text-[12rem] font-bold -mb-12 font-serif">
+        <div className="text-olive-green text-[8rem] font-bold -mb-6 font-serif">
           {daysLeft}
         </div>
 

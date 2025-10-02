@@ -10,6 +10,15 @@ module.exports = {
       colors: {
         'olive-green': '#a0a779',
       },
+      fontFamily: {
+        'lavishly-yours': ['var(--font-lavishly-yours)', 'cursive'],
+        sans: [
+          'var(--font-lavishly-yours)',
+          'Arial',
+          'Helvetica',
+          'sans-serif',
+        ],
+      },
     },
   },
   plugins: [],
